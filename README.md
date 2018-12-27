@@ -8,4 +8,4 @@
 <hr>
 # SpringCloud搭建完成之后还会陆续add Elasticsearch(真实生产环境中的案例,不是简易的curd以及集群调优和生产中的一些采坑记录)<br>Redis,RabbitMQ队列,WebSocket即时通讯...<br>
 <hr>
-# 希望借助于开源的力量与大家一同学习进步 :)
+# 最后希望借助于开源的力量与大家一同学习进步 :)

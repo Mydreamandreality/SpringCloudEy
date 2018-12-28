@@ -1,5 +1,6 @@
 package cn.cloudey.eurekaserverfeign.FeignService;
 
+import cn.cloudey.eurekaserverfeign.HystrIx.SchedualServiceHiHystric;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @date 2018/12/27
  * @Varsion 1.0
  */
-@FeignClient(name = "eureka-client")    //name来指定调用哪个服务
+@FeignClient(name = "eureka-client",fallback = SchedualServiceHiHystric.class)    //name来指定调用哪个服务
 public interface SchedualService {
 
     /**

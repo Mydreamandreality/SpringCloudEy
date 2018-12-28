@@ -1,5 +1,6 @@
 package cn.cloudey.eurekaserverribbon.service;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,8 +21,22 @@ public class RibbonService {
     @Autowired
     private RestTemplate restTemplate;
 
+    /**
+     * hiError是熔断触发之后需要返回的方法
+     * @param name
+     * @return
+     */
+    @HystrixCommand(fallbackMethod = "hiError")
     public String hiRibbonService(String name){
         //调用服务提供方接口,动态port,代表负载均衡成功
         return restTemplate.getForObject("http://eureka-client/hi?name="+name,String.class);
+    }
+
+    /**
+     * 熔断器返回方法
+     * @return
+     */
+    public String hiError(String name){
+        return "hi,"+name+",sorry,error!";
     }
 }

@@ -17,6 +17,7 @@
 # Ey项目还在搭建过程中,因为工作原因会陆续更新
 <hr>
 # Ey项目的文档后续我也会更新到Git上,是用Xmind工具写的一个脑图
+![图片失效,请联系作者](https://github.com/Mydreamandreality/SpringCloudEy/blob/master/img/MyGson-SpringCloud.png)
 <hr>
 # 最后希望借助于开源的力量与大家一同学习进步 :)
 <hr>

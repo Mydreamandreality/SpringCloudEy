@@ -7,7 +7,7 @@
 # 注:Ey项目是前后端分离的项目,只提供后端restful风格的接口服务,Swagger接口测试
 <hr>
   &nbsp;&nbsp;&nbsp;&nbsp;更新计划:<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;1.搭建`SpringBoot+SpringCLoud`基础框架,深度优化,避免在开发中采坑<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;1.搭建<span style="color: red">SpringBoot+SpringCLoud</span>基础框架,深度优化,避免在开发中采坑<br>
   &nbsp;&nbsp;&nbsp;&nbsp;2.``封装常用组件(加密,字符,json,Map,定时任务等),分布式事务,分布式会话,JWT鉴权,MybatisPlus持久层操作``<br>
   3.自定义权限``Shiro(RBAC的权限设计模式),封装异步日志记录(已经在实际生产环境中使用过的)只对外提供一个注解,即可异步记录日志(操作日志,登录日志等等操作)``
   &nbsp;&nbsp;&nbsp;&nbsp;3.封装``WebSocket``即时通讯,增加``Redis``缓存,``RabbitMq``队列<br>

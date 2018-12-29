@@ -8,14 +8,16 @@
 <hr>
 >更新计划:<br>
 >>1.搭建 <strong>SpringBoot+SpringCLoud</strong> 基础框架,深度优化,避免在开发中采坑<br><br>
->>2.``封装常用组件(加密,字符,json,Map,定时任务等),分布式事务,分布式会话,JWT鉴权,MybatisPlus持久层操作``<br>
->>3.自定义权限``Shiro(RBAC的权限设计模式),封装异步日志记录(已经在实际生产环境中使用过的)只对外提供一个注解,即可异步记录日志(操作日志,登录日志等等操作)``
->>4.封装``WebSocket``即时通讯,增加``Redis``缓存,``RabbitMq``队列<br>
->>5.案例:``ElasticsearchJavaApi``的深度使用,``不是简单的CRUD(包括全文检索,时间区间聚合,定时统计聚合,深度分页等)大规模集群中的优化技巧``<br>
->>6.``ELK(Elasticsearch+Logstash+kibana)日志分析系统``,RabbitMQ作为消息队列,该模块会单独作为一个项目开发<br>
+>>2.封装常用组件<strong>(加密,字符,json,Map,定时任务等),分布式事务,分布式会话,JWT鉴权,MybatisPlus持久层操作</strong><br><br>
+>>3.自定义权限<strong>Shiro(RBAC的权限设计模式),封装异步日志记录(已经在实际生产环境中使用过的)只对外提供一个注解,即可异步记录日志(操作日志,登录日志等等操作)</strong><br><br>
+>>4.封装<strong>WebSocket</strong>即时通讯,增加<strong>Redis</strong>缓存,<strong>RabbitMq</strong>队列<br><br>
+>>5.案例:<strong>ElasticsearchJavaApi</strong>的深度使用,不是简单的CRUD(包括全文检索,时间区间聚合,定时统计聚合,深度分页等)大规模集群中的优化技巧<br><br>
+>>6.<strong>ELK(Elasticsearch+Logstash+kibana)日志分析系统</strong>,RabbitMQ作为消息队列,该模块会单独作为一个项目开发<br><br>
 <hr>
 # Ey项目还在搭建过程中,因为工作原因会陆续更新
 <hr>
-# SpringCloud搭建完成之后还会陆续add ``Elasticsearch``(真实生产环境中的案例,不是简易的curd以及集群调优和生产中的一些采坑记录)<br>Redis,RabbitMQ队列,WebSocket即时通讯...<br>
+# Ey项目的文档后续我也会更新到Git上,是用Xmind工具写的一个脑图
 <hr>
 # 最后希望借助于开源的力量与大家一同学习进步 :)
+<hr>
+# 参考资料: SpringCloud微服务实战.Elasticsearch官方文档5.6.8

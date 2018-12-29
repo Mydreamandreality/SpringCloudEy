@@ -4,12 +4,14 @@
 <hr>
 # 项目版本基于SpringBoot2.0.3版本,SpringCloud基于Finchley发行版本,Elasticsearch5.6.8,Redis,RabbitMQ,Jdk1.8以上<br>
 <hr>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更新计划<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;1.搭建基础框架,深度优化,避免在开发中采坑<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;2.封装组件,自定义权限Shiro(RBAC的权限设计模式),分布式事务,分布式会话,JWT鉴权,MybatisPlus持久层操作<br>
+# 注:Ey项目是前后端分离的项目,只提供后端restful风格的接口服务,Swagger接口测试
+<hr>
+  &nbsp;&nbsp;&nbsp;&nbsp;更新计划:<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;1.搭建SpringBoot+SpringCLoud基础框架,深度优化,避免在开发中采坑<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;2.封装组件,自定义权限<font color="#dd0000">Shiro(RBAC的权限设计模式),分布式事务,分布式会话,JWT鉴权,MybatisPlus持久层操作</font><br>
   &nbsp;&nbsp;&nbsp;&nbsp;3.封装WebSocket即时通讯,增加Redis缓存,RabbitMq队列<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;4.ElasticsearchJavaApi的使用,深度使用,不是简单的CRUD,大规模集群中的优化技巧<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;5.ELK(Elasticsearch+Logstash+kibana)日志分析系统,RabbitMQ作为消息队列,该模块会单独作为一个项目开发<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;4.<font color="#dd0000">ElasticsearchJavaApi</font>的使用,深度使用,不是简单的CRUD,大规模集群中的优化技巧<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;5.<font color="#dd0000">ELK(Elasticsearch+Logstash+kibana)</font>日志分析系统,RabbitMQ作为消息队列,该模块会单独作为一个项目开发<br>
 <hr>
 # Ey项目还在搭建过程中,因为工作原因会陆续更新
 <hr>

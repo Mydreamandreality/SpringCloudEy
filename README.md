@@ -20,4 +20,5 @@
 <hr>
 # 最后希望借助于开源的力量与大家一同学习进步 :)
 <hr>
+<br>
 # 参考资料: SpringCloud微服务实战.Elasticsearch官方文档5.6.8
